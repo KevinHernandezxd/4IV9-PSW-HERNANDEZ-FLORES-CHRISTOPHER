@@ -77,3 +77,11 @@ footer{
     width:200;
     position: relative;
 }
+
+article{
+    border:3px solid rgb(139, 106, 15);
+    margin: 1rem;
+    border-radius: 6px;
+    text-align: center;
+    width: 98%;
+}
