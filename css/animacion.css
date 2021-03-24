@@ -48,7 +48,12 @@
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    
+}
+
+.label:hover{
+    background-color: rgb(219, 193, 45);
+
+
 }
 
 .loader{
@@ -62,15 +67,27 @@
 
 }
 
+.loader:hover{
+    animation: girar 0.5s linear infinite;
+    border: 5px solid rgb(115, 113, 252);
+    background: #a594f9;
+    border-top: 4px solid rgb(190, 207, 34);
+}
+
 .loader-double {
     width: 64px;
     height: 64px;
     border: 16px solid rgb(190, 45, 160);
     border-top: 16px solid rgb(10, 20, 100);
     border-bottom: 16px solid rgb(10, 20, 100);
-    border-radius: 50%;
+ /* border-radius: 50%; */
 
     animation: girar 1s ease-in-out infinite;
+}
+
+.loader-double:hover{
+    border-top: 16px solid rgb(27, 185, 54);
+    border-radius: 50%;
 }
 
 .animada{
